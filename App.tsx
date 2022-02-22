@@ -1,14 +1,18 @@
 import React from 'react';
-import {Text, View, StatusBar, useColorScheme} from 'react-native';
+import {StatusBar, useColorScheme} from 'react-native';
+
+import {NavigationContainer} from '@react-navigation/native';
+
+import {StackNavigator} from './src/routes/app.routes';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <View>
+    <NavigationContainer>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Text>Hello.</Text>
-    </View>
+      <StackNavigator />
+    </NavigationContainer>
   );
 };
 
