@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lorran/Documentos/GitHub/audiobookApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "outputFile": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "/home/lorran/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/res/values-vi/values-vi.xml",
