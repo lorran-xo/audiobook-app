@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/lorran/.gradle/caches/transforms-3/e6d0898a74320d34d15c5decc8322fa1/transformed/jetified-react-native-0.67.2/res/values/values.xml",
@@ -37,6 +37,25 @@
                         "startOffsets": "40021",
                         "endColumns": "42",
                         "endOffsets": "40059"
+                    }
+                },
+                {
+                    "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "817",
+                        "startColumns": "4",
+                        "startOffsets": "59464",
+                        "endLines": "820",
+                        "endColumns": "12",
+                        "endOffsets": "59677"
                     }
                 },
                 {
@@ -95,23 +114,6 @@
                     }
                 },
                 {
-                    "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "49",
-                        "endOffsets": "61"
-                    },
-                    "to": {
-                        "startLines": "687",
-                        "startColumns": "4",
-                        "startOffsets": "43937",
-                        "endColumns": "49",
-                        "endOffsets": "43982"
-                    }
-                },
-                {
                     "source": "/home/lorran/.gradle/caches/transforms-3/42fc10495a8bc8a878c7280888ad32dd/transformed/jetified-savedstate-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -167,7 +169,7 @@
                     }
                 },
                 {
-                    "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -332,22 +334,20 @@
                     }
                 },
                 {
-                    "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "3",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
+                        "startOffsets": "16",
+                        "endColumns": "49",
+                        "endOffsets": "61"
                     },
                     "to": {
-                        "startLines": "817",
+                        "startLines": "687",
                         "startColumns": "4",
-                        "startOffsets": "59464",
-                        "endLines": "820",
-                        "endColumns": "12",
-                        "endOffsets": "59677"
+                        "startOffsets": "43937",
+                        "endColumns": "49",
+                        "endOffsets": "43982"
                     }
                 },
                 {

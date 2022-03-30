@@ -1,46 +1,46 @@
 [
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/drawable_rn_edit_text_material.xml.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/drawable_rn_edit_text_material.xml.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/lorran/Documentos/GitHub/audiobook-app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/lorran/Documents/GitHub/audiobook-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     }
 ]

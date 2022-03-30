@@ -1,13 +1,13 @@
-#Tue Feb 22 18:49:58 BRT 2022
+#Wed Mar 30 18:45:56 BRT 2022
 path.3=14/classes.dex
 path.2=0/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
+base.3=/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.2=/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.0=/home/lorran/Documents/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.2=/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.1=/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.0=/home/lorran/Documentos/GitHub/audiobook-app/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
