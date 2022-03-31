@@ -1,14 +1,14 @@
-import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
 
-import {Home} from '../screens/Home';
-import {Details} from '../screens/Details';
+import { Home } from "../screens/Home";
+import { Details } from "../screens/Details";
 
 const Stack = createStackNavigator();
 
 export type RootStackParamsList = {
   Home: undefined;
-  Details?: {selectedBook: number};
+  Details?: { selectedBookId: number; selectedBookImage: string };
 };
 
 export function StackNavigator() {
@@ -16,7 +16,8 @@ export function StackNavigator() {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
-      }}>
+      }}
+    >
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Details" component={Details} />
     </Stack.Navigator>

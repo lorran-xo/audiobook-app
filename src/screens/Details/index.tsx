@@ -14,6 +14,7 @@ import {
 } from "./styles";
 import { AudioBookItem } from "../../components/AudioBookItem";
 import { RootStackParamsList } from "../../routes/app.routes";
+import { AUDIO_LIST } from "./../mockData";
 
 type detailScreenProps = NativeStackNavigationProp<
   RootStackParamsList,
@@ -47,10 +48,10 @@ export function Details() {
     try {
       const [descriptionData, audioData] = await axios.all([
         axios.get(
-          `https://librivox.org/api/feed/audiobooks/?id=${params.selectedBook}&format=json`
+          `https://librivox.org/api/feed/audiobooks/?id=${params?.selectedBookId}&format=json`
         ),
         axios.get(
-          `https://librivox.org/api/feed/audiotracks/?id=${params.selectedBook}&format=json`
+          `https://librivox.org/api/feed/audiotracks/?id=${params?.selectedBookId}&format=json`
         ),
       ]);
 
@@ -62,7 +63,7 @@ export function Details() {
             description: item.description,
             thumbnail: item.archiveImage
               ? item.archiveImage
-              : "https://archive.org/download/oneactplaycollection016_2202_librivox/one-act16_2202.jpg",
+              : params?.selectedBookImage,
           };
         }
       );
@@ -94,13 +95,10 @@ export function Details() {
           <AudioBookItem
             title={detailedData[0]?.title}
             description={detailedData[0]?.description}
-            thumbnailUrl={detailedData[0]?.thumbnail}
-            handlePress={() =>
-              Linking.openURL(
-                audio?.sections?.listen_url ||
-                  "https://ia601404.us.archive.org/35/items/oneactplaycollection016_2202_librivox/oneactplays016_01_various_128kb.mp3"
-              )
+            playableUrl={
+              AUDIO_LIST[Math.floor(Math.random() * AUDIO_LIST.length)]
             }
+            thumbnailUrl={detailedData[0]?.thumbnail}
             playable
           />
         </View>

@@ -17,6 +17,7 @@ MERGED from [com.facebook.react:react-native:0.67.2] /home/lorran/.gradle/caches
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/lorran/.gradle/caches/transforms-3/2440439db2f6d9d5f76a90648980e461/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r250230] /home/lorran/.gradle/caches/transforms-3/b825e962adf445255b97861e91a2a884/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /home/lorran/Documents/GitHub/audiobook-app/node_modules/react-native-reanimated/android/build/.transforms/863fb156139430e5ff2c562ef06fca4a/transformed/jetified-react-native-reanimated-67-jsc/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-sound] /home/lorran/Documents/GitHub/audiobook-app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [com.facebook.fresco:flipper:2.5.0] /home/lorran/.gradle/caches/transforms-3/705daa35cfc508d545884e16a9ae76fc/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.5.0] /home/lorran/.gradle/caches/transforms-3/3c07b8fb53743fa14ab68cadfbfb8166/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.5.0] /home/lorran/.gradle/caches/transforms-3/6621840f9eac2a68a453a820def102cd/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
@@ -184,6 +185,8 @@ MERGED from [org.webkit:android-jsc:r250230] /home/lorran/.gradle/caches/transfo
 MERGED from [org.webkit:android-jsc:r250230] /home/lorran/.gradle/caches/transforms-3/b825e962adf445255b97861e91a2a884/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/lorran/Documents/GitHub/audiobook-app/node_modules/react-native-reanimated/android/build/.transforms/863fb156139430e5ff2c562ef06fca4a/transformed/jetified-react-native-reanimated-67-jsc/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-reanimated] /home/lorran/Documents/GitHub/audiobook-app/node_modules/react-native-reanimated/android/build/.transforms/863fb156139430e5ff2c562ef06fca4a/transformed/jetified-react-native-reanimated-67-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sound] /home/lorran/Documents/GitHub/audiobook-app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-sound] /home/lorran/Documents/GitHub/audiobook-app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
 MERGED from [com.facebook.fresco:flipper:2.5.0] /home/lorran/.gradle/caches/transforms-3/705daa35cfc508d545884e16a9ae76fc/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.5.0] /home/lorran/.gradle/caches/transforms-3/705daa35cfc508d545884e16a9ae76fc/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.5.0] /home/lorran/.gradle/caches/transforms-3/3c07b8fb53743fa14ab68cadfbfb8166/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:5:5-7:41

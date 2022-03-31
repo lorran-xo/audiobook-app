@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import {View, Text} from 'react-native';
+import styled from "styled-components";
+import { View, Text } from "react-native";
 
 export const Container = styled(View)`
-  margin: 5px;
+  margin: 3px;
 `;
 
 export const TitleContainer = styled(View)`
@@ -12,4 +12,11 @@ export const TitleContainer = styled(View)`
 export const TitleText = styled(Text)`
   font-size: 20px;
   color: #808080;
+  font-style: italic;
+`;
+
+export const Separator = styled(View)`
+  border: 2px solid;
+  border-color: #cccccc;
+  margin: 0 12px;
 `;

@@ -24,6 +24,7 @@
     "react-native-reanimated": "^2.5.0",
     "react-native-safe-area-context": "^4.2.4",
     "react-native-screens": "^3.13.1",
+    "react-native-sound": "^0.11.2",
     "react-native-vector-icons": "^9.1.0",
     "react-navigation-stack": "react-navigation/stack",
     "styled-component": "^2.8.0",
