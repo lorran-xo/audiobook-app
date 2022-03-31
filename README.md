@@ -5,7 +5,7 @@ This is a small fast-developed React Native app that lists audiobooks from Libri
 Api: https://librivox.org/api/info
 Icons: https://oblador.github.io/react-native-vector-icons/
 
-App Images and Audios are randonly mocked so app doens't crash because LibriVox api is not storing all of them anymore.
+Librivox Api have some images and audio URLs missing. When it happens in this app, they are both randonly picked from a mocked list so the app always has an image and an associated audio so it does not crash.
 
 # INSTRUCTIONS
 
@@ -17,9 +17,9 @@ App Images and Audios are randonly mocked so app doens't crash because LibriVox 
 
     - On the project root, run 'yarn' to install dependencies.
 
-2 - Follow run instructions for your device:
-        a - Android:
+2 - Follow run instructions for your platform:
 
+        a - Android:
                 1 - Have an Android emulator running (quickest way to get started) for example Android Studio, or a device connected with USB debugging enabled.
                 2 - npx react-native start
                 3 - cd "~PROJECT_FOLDER~/audiobook-app" && npx react-native run-android

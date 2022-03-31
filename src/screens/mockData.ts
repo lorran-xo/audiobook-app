@@ -14,6 +14,11 @@ export const AUDIO_LIST = [
   "https://ia601809.us.archive.org/9/items/ghohor047_2012_librivox/ghohor047_ifyouseeherface_croker_el_128kb.mp3",
   "https://ia601809.us.archive.org/9/items/ghohor047_2012_librivox/ghohor047_valleywheredeadmenlive_ward_dg_128kb.mp3",
   "https://ia601809.us.archive.org/9/items/ghohor047_2012_librivox/ghohor047_vengeanceoftree_lewis_ig_128kb.mp3",
+  "https://ia802608.us.archive.org/23/items/atomic_bombings_0808_librivox/hiroshima_nagasaki_01_corpsofengineers.mp3",
+  "https://ia802608.us.archive.org/23/items/atomic_bombings_0808_librivox/hiroshima_nagasaki_02_corpsofengineers.mp3",
+  "https://ia902608.us.archive.org/23/items/atomic_bombings_0808_librivox/hiroshima_nagasaki_03_corpsofengineers.mp3",
+  "https://ia800705.us.archive.org/7/items/careers_danger_daring_1011/careersdangerdaring_01_moffett.mp3",
+  "https://ia800705.us.archive.org/7/items/careers_danger_daring_1011/careersdangerdaring_02_moffett.mp3",
 ];
 
 export const IMAGE_LIST = [
@@ -32,4 +37,11 @@ export const IMAGE_LIST = [
   "https://archive.org/download/pirate_2203_librivox/pirates_3_cutters_2203.jpg",
   "https://archive.org/download/listening_2203.poem_librivox/listening_2203.jpg",
   "https://archive.org/download/his_wisdom_2203_librivox/hiswisdomthedefender_2203.jpg",
+  "https://www.archive.org/download/LibrivoxCdCoverArt6/atomic_bombings_of_hiroshima_and_nagasaki_1012.jpg",
+  "https://www.archive.org/download/LibrivoxCdCoverArt6/careersdaringdanger_1011.jpg",
+  "https://archive.org/download/boythewanderingdog_1608_librivox/boythewanderingdog_1608.jpg",
+  "https://archive.org/download/tildajanesorphans_1801_librivox/tilda_jane_orphans_1801.jpg",
+  "https://www.archive.org/download/LibrivoxCdCovers3/adventures_buster_bear_1009.jpg",
+  "https://archive.org/download/tildajanesorphans_1801_librivox/tilda_jane_orphans_1801.jpg",
+  "https://archive.org/download/chatterertheredsquirrel_1307_librivox/adventures_chatterer_1308.jpg",
 ];

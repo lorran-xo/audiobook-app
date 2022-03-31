@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { View, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export const Container = styled(View)`
+export const Container = styled(SafeAreaView)`
   margin: 3px;
 `;
 

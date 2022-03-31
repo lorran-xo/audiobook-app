@@ -12,22 +12,24 @@ interface AudioProps {
 
 export function AudioPlayer({ audioUrl }: AudioProps) {
   const [playing, setPlaying] = useState(false);
-  const [toBePlayed] = useState(audioUrl);
+  const [toBePlayed, setToBePlayed] = useState(audioUrl);
+  const [decodingErrorOcurred, setDecodingErrorOcurred] = useState(false);
+  const [audio, setAudio] = useState(
+    new Sound(toBePlayed, null, (error) => {
+      if (error) {
+        console.log("failed to load the sound", error);
 
-  const audio = new Sound(toBePlayed, null, (error) => {
-    if (error) {
-      console.log("failed to load the sound", error);
-
-      return;
-    }
-    // if loaded successfully
-    console.log(
-      "duration in seconds: " +
-        audio.getDuration() +
-        " number of channels: " +
-        audio.getNumberOfChannels()
-    );
-  });
+        return;
+      }
+      // if loaded successfully
+      console.log(
+        "duration (s): " +
+          audio.getDuration() +
+          " # channels: " +
+          audio.getNumberOfChannels()
+      );
+    })
+  );
 
   useEffect(() => {
     audio.setVolume(1);
@@ -36,22 +38,50 @@ export function AudioPlayer({ audioUrl }: AudioProps) {
     };
   }, []);
 
-  async function handlePlayAudio() {
-    await audio.play((success) => {
+  // useEffect(() => {
+  //   console.log("decoding error PLAY");
+  //   setToBePlayed(
+  //     "https://ia800705.us.archive.org/7/items/careers_danger_daring_1011/careersdangerdaring_01_moffett.mp3"
+  //   );
+  //   audio.play((success) => {
+  //     if (success) {
+  //       setPlaying(false);
+  //       console.log("successfully finished playing");
+  //     }
+  //   });
+  // }, [decodingErrorOcurred]);
+
+  function handleRetryPlaying(url: string) {
+    console.log("decoding error PLAY");
+    setToBePlayed(url);
+    audio.play((success) => {
+      if (success) {
+        setPlaying(false);
+        console.log("successfully finished playing");
+      }
+    });
+  }
+
+  function handlePlayAudio() {
+    console.log("CLICK");
+    audio.play((success) => {
       if (success) {
         setPlaying(false);
         console.log("successfully finished playing");
       } else {
         setPlaying(false);
+        handleRetryPlaying(
+          "https://ia800705.us.archive.org/7/items/careers_danger_daring_1011/careersdangerdaring_01_moffett.mp3"
+        );
         console.log("playback failed due to audio decoding errors");
       }
     });
     setPlaying(true);
   }
 
-  async function handlePauseAudio() {
-    console.log("paused");
-    await audio.pause();
+  function handlePauseAudio() {
+    console.log("PAUSE");
+    audio.pause();
     setPlaying(false);
   }
 

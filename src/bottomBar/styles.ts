@@ -8,6 +8,6 @@ export const BottomBar = styled(View)`
 export const BottomText = styled(Text)`
   font-weight: 600;
   color: #808080;
-  font-size: 8px;
+  font-size: 10px;
   font-style: italic;
 `;

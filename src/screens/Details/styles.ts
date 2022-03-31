@@ -1,7 +1,8 @@
-import styled from 'styled-components';
-import {View, Text, TouchableOpacity} from 'react-native';
+import styled from "styled-components";
+import { View, Text, TouchableOpacity } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export const Container = styled(View)`
+export const Container = styled(SafeAreaView)`
   margin: 5px;
 `;
 
