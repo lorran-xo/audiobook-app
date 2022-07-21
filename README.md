@@ -1,5 +1,7 @@
 # ABOUT
 
+DEPRECATED - A new one was developed here: https://github.com/lorran-xo/AudioBookLibraryApp
+
 This is a small fast-developed React Native app that lists audiobooks from LibriVox, where you can see details about each audiobook and also listen to them.
 
 Api: https://librivox.org/api/info
